@@ -1,8 +1,8 @@
 import Foundation
 
-class FileReader {
+public class FileReader {
 	
-	class func readFile(_ fileName: String) -> String? {
+	public class func readFile(_ fileName: String) -> String? {
 
 		let fileManager = FileManager.default
 
